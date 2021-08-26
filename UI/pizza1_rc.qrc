@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="fundo">
+    <file>pizza-porcionamento.png</file>
+  </qresource>
+</RCC>

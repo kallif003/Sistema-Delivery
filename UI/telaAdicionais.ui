@@ -1,0 +1,3473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1020</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1020</width>
+    <height>590</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1020</width>
+    <height>590</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Tela de Adicionais</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(99, 6, 17);
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>491</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid rgb(245, 230, 189);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QCheckBox" name="checkBox1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>320</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>260</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>200</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>290</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>350</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>410</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>380</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(245, 230, 189);
+border: 2px solid rgb(255, 275, 275);
+border-radius: 0px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>6</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border: 2px solid rgb(245, 230, 189);
+
+}</string>
+         </property>
+         <property name="text">
+          <string>    Com Recheio</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QCheckBox" name="checkBox16">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox15">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>80</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox18">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>170</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox22">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>290</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox26">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>410</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox14">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox24">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>350</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox19">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox23">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>320</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox21">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>260</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox17">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox20">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>230</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox25">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>380</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox29">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox28">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>80</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox31">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>170</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox35">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>290</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox39">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>410</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox27">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox37">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>350</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox32">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>200</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox36">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>320</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox34">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>260</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox30">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox33">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>230</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox38">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>380</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>20</y>
+         <width>481</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid rgb(245, 230, 189);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QCheckBox" name="c1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>320</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>260</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>200</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>290</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>350</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>410</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>380</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(245, 230, 189);
+border: 2px solid rgb(255, 275, 275);
+border-radius: 0px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>6</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{
+border: 2px solid rgb(245, 230, 189);
+
+}</string>
+         </property>
+         <property name="text">
+          <string>    Sem Recheio</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QCheckBox" name="c16">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c15">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>80</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c18">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>170</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c22">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>290</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c26">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>410</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c14">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c24">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>350</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c19">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c23">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>320</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c21">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>260</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c17">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c20">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>230</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c25">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>380</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c29">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c28">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>80</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c31">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>170</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c35">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>290</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c39">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>410</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c27">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>50</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c37">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>350</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c32">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>200</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c36">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>320</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c34">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>260</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c30">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c33">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>230</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="c38">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>380</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QCheckBox" name="doisSabores">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>520</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>1/2</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="tresSabores">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>520</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>1/3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="oito_adc">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>480</y>
+         <width>90</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>8 Pedaços</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="dez_adc">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>480</y>
+         <width>90</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>10 Pedaços</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="umSabor">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>520</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>1/1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="seis_adc">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>480</y>
+         <width>90</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>6 Pedaços</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sem_adc">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>480</y>
+         <width>90</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>Sem Recheio</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="broto_adc">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>480</y>
+         <width>90</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>Broto</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="quatroSabores">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>520</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QCheckBox{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QCheckBox:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QCheckBox:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>1/4</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="exibi_adc">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>520</y>
+         <width>90</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>Valores</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1020</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

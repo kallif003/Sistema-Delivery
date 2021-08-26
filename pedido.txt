@@ -1,0 +1,28 @@
+COMPUTADOR 2
+---------------------------------
+PIZZARIA GRATONI
+26/08/2021 - 13:26:15
+Pedido: 11
+---------------------------------
+Cliente: KALLIF
+Telefone: 991116524
+Endereco: AVENIDA CARLOS DRUMMOND DE ANDRADE   Numero: 876
+Bairro: JARDIM SANTA MARIA
+CEP: 12328150
+Ref: 
+Comple: 
+Taxa de Entrega: 2
+---------------------------------
+       ------Pedido------
+---------------------------------
+1x Pizza Dez Pedacos R$:30.00
+
+
+Sabor:
+(1/1)PRESUNTO
+---------------------------------
+    ------Valor do Pedido------
+Valor total:...........: 30.00
+---------------------------------
+    ------Pagamento------
+---------------------------------

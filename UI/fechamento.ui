@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FechamentoCaixa</class>
+ <widget class="QMainWindow" name="FechamentoCaixa">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>480</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Fechamento Caixa</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/ICON/projetoFechamentoCx.png</normaloff>:/ICON/projetoFechamentoCx.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(99, 6, 17);
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="centrol">
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+color: rgb(0, 0, 0);
+background-color: rgb(99, 6, 17);
+
+border-radius: 10px;
+border: 10 px color solid rgb(35, 35, 35);
+
+}
+
+QFrame:houver{
+	border: 20px solid rgb(55, 55, 55);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="telaPrincipal">
+         <property name="maximumSize">
+          <size>
+           <width>450</width>
+           <height>650</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+
+QFrame{
+background-color: rgb(99, 6, 17);
+
+border-radius: 50px;
+
+border: 2px solid rgb(245, 230, 189);
+	color: rgb(0, 0, 0);
+}
+
+QFrame:houver{
+	border: 2px solid rgb(65, 65, 65);
+background-position: center;
+
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Plain</enum>
+         </property>
+         <widget class="QPushButton" name="salvar">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>580</y>
+            <width>80</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+ 	border: 2px solid rgb(60, 60, 60);
+	background-color: rgb(255, 255, 0);
+	border-radius: 5px;
+}
+
+QPushButton:hover{
+ 	border: 2px solid rgb(255, 255, 0);
+	background-color: rgb(255, 255, 0);
+}
+
+QPushButton:pressed{
+ 	border: 2px solid rgb(205, 205, 24);
+	background-color: rgb(200, 205, 205);
+    
+	color: rgb(35, 35, 35);
+}</string>
+          </property>
+          <property name="text">
+           <string>SALVAR</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="consultar">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>580</y>
+            <width>80</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+ 	border: 2px solid rgb(60, 60, 60);
+	background-color: rgb(255, 255, 0);
+	border-radius: 5px;
+}
+
+QPushButton:hover{
+ 	border: 2px solid rgb(255, 255, 0);
+	background-color: rgb(255, 255, 0);
+}
+
+QPushButton:pressed{
+ 	border: 2px solid rgb(205, 205, 24);
+	background-color: rgb(200, 205, 205);
+    
+	color: rgb(35, 35, 35);
+}</string>
+          </property>
+          <property name="text">
+           <string>CONSULTAR</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="motoboys">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>220</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Motoboys</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="cartao">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>160</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Cartão</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pizzas">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>520</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Pizzas</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pagamentos">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>400</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Pagamentos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="vendas">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>280</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Vendas</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="ifood">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>340</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Ifood</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="esfihas">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>460</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Esfihas</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="caixa">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>100</y>
+            <width>391</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 15px;
+     color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+          </property>
+          <property name="text">
+           <string>Caixa</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="calcular">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>580</y>
+            <width>80</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+ 	border: 2px solid rgb(60, 60, 60);
+	background-color: rgb(255, 255, 0);
+	border-radius: 5px;
+}
+
+QPushButton:hover{
+ 	border: 2px solid rgb(255, 255, 0);
+	background-color: rgb(255, 255, 0);
+}
+
+QPushButton:pressed{
+ 	border: 2px solid rgb(205, 205, 24);
+	background-color: rgb(200, 205, 205);
+    
+	color: rgb(35, 35, 35);
+}</string>
+          </property>
+          <property name="text">
+           <string>CALCULAR</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>40</y>
+            <width>181</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);
+	border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>       FECHAMENTO DE CAIXA</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

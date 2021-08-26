@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>consulta</class>
+ <widget class="QMainWindow" name="consulta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>812</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>812</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Consulta</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/ICON/projetoFechamentoCx.png</normaloff>:/ICON/projetoFechamentoCx.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(99,6,17);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="centro2">
+      <property name="maximumSize">
+       <size>
+        <width>16675</width>
+        <height>450</height>
+       </size>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="telaSegundaria">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>450</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(99,6,17);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QFrame" name="base2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>350</y>
+            <width>812</width>
+            <height>45</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>45</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(99,6,17);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="arquivo">
+             <property name="maximumSize">
+              <size>
+               <width>95</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>8</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+ 	border: 2px solid rgb(60, 60, 60);
+	background-color: rgb(255, 255, 0);
+	border-radius: 5px;
+}
+
+QPushButton:hover{
+ 	border: 2px solid rgb(255, 255, 0);
+	background-color: rgb(255, 255, 0);
+}
+
+QPushButton:pressed{
+ 	border: 2px solid rgb(205, 205, 24);
+	background-color: rgb(200, 205, 205);
+    
+	color: rgb(35, 35, 35);
+}</string>
+             </property>
+             <property name="text">
+              <string>IMPRIMIR</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="excluir">
+             <property name="maximumSize">
+              <size>
+               <width>95</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+ 	border: 2px solid rgb(60, 60, 60);
+	background-color: rgb(255, 255, 0);
+	border-radius: 5px;
+}
+
+QPushButton:hover{
+ 	border: 2px solid rgb(255, 255, 0);
+	background-color: rgb(255, 255, 0);
+}
+
+QPushButton:pressed{
+ 	border: 2px solid rgb(205, 205, 24);
+	background-color: rgb(200, 205, 205);
+    
+	color: rgb(35, 35, 35);
+}</string>
+             </property>
+             <property name="text">
+              <string>EXCLUIR</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>791</width>
+            <height>331</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>791</width>
+            <height>331</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>791</width>
+            <height>331</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTableWidget{
+	border: 2px solid rgb(245,230,189);
+ 	border-radius: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(99,6,17);
+}
+QTableWidget:hover{
+	border: 2px solid rgb(55, 55, 55);
+}
+</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>8</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Data</string>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>8</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Inicio Caixa</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Retirada</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Próximo Caixa</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Motoboy</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cartão</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Total Terminais</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Esfihas</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pizzas</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Online Ifood</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Total Ifood</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pagamento</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Valor Pago</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Dinheiro Ifood</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Venda Dia</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Total Dia</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ficou</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Subiu</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Faltou</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Sobrou</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Total Pagamento</string>
+           </property>
+          </column>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>812</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

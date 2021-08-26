@@ -1,0 +1,24 @@
+FECHAMENTO DE CAIXA
+--------------------------------
+Data:26/08/2021 (Quinta-feira)
+Inicio Caixa:0.00
+Cartao:0.00
+Retirada:0.00
+Motoboy:0.00
+Total pagamento:0.00
+Total:0.00
+Venda dia:0.00
+--------------------------------
+Pagamento online Ifood:0.00
+Pagamento dinheiro Ifood:0.00
+Total Ifood:0.00
+--------------------------------
+Pizzas:0
+Esfihas:0
+--------------------------------
+Subiu:0.00
+Ficou:0.00
+Faltou:0.00
+Sobrou:0.00
+Inicio proximo caixa:0.00
+--------------------------------

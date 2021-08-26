@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>699</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>699</width>
+    <height>646</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>699</width>
+    <height>646</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Informações do Pedido</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(99, 6, 17);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>642</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid rgb(245, 230, 189);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="telefone">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Tel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="nome">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>60</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Nome</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="cep">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>60</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cep</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="endereco">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>60</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Endereco</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="numero">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Nº</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="bairro">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>100</y>
+          <width>281</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Bairro</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="taxa">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>140</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Taxa Entrega</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ref">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>100</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Referência</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="complemento">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Complemento</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>190</y>
+          <width>621</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <column>
+         <property name="text">
+          <string>Tamanho</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Parte</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Sabor</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Valor</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Quantidade</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Subtotal</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="valorTotal">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>520</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Total:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="codigo">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLineEdit:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLineEdit:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Cod. Pedido:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="cartao">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>480</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cartão:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="voucher">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>480</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Voucher:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dinheiro">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>520</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Dinheiro:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="troco">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>520</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Troco:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="desconto">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>480</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Desconto:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>480</y>
+          <width>141</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="motoboy">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>140</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+}
+QLabel:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QLabel:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Motoboy</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="consultar_pedido">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>20</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border: 2px solid rgb(45, 45, 45);
+ 	border-radius: 5px;
+    padding: 5px;
+     color: rgb(255,275,275);
+	background-color: rgb(255, 255, 255);
+	
+	
+	background-color: rgb(255, 255, 0);
+}
+QPushButton:hover{
+	border: 2px solid rgb(55, 55, 55);
+    color: rgb(0,0,0);
+}
+QPushButton:focus{
+	border: 2px solid rgb(255, 207, 0);
+     color: rgb(0, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Consultar Pedido</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>20</y>
+          <width>241</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+border: 2px solid rgb(245, 230, 189);
+background-color: rgb(245, 230, 189);
+border: 2px solid rgb(255, 275, 275);
+border-radius: 0px;
+}</string>
+        </property>
+        <property name="text">
+         <string>                             Info. Pedido</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>480</y>
+          <width>141</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>699</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
