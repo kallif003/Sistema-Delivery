@@ -1,7 +1,8 @@
-def outros(tela, cursor, modulo):
+def outros(*args):
 
-    telaPrincipal = tela
-    preenche_checkbox = modulo
+    telaPrincipal = args[0]
+    cursor = args[1]
+    preenche_checkbox = args[2]
 
     telaPrincipal.frame_esfiha.show()
     telaPrincipal.frame_bebidas.show()

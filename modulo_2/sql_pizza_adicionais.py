@@ -1,5 +1,9 @@
-def sql_pizzas_esfihas(cursor, tela, QtWidgets):
-    telaAtualizarProdutos = tela
+def sql_pizzas_esfihas(*args):
+
+    cursor = args[0]
+    telaAtualizarProdutos = args[1]
+    QtWidgets = args[2]
+
     lista = []
     sql = "select * from broto"
     cursor.execute(sql)

@@ -1,9 +1,12 @@
-def excluir(tela1, tela2, tela3,  cursor, banco10, QtWidgets, modulo):
+def excluir(*args):
     try:
-        telaExcluirBebidas = tela1
-        telaErro = tela2
-        telaBebida = tela3
-        setar_checkBox_false = modulo
+        telaExcluirBebidas = args[0]
+        telaErro = args[1]
+        telaBebida = args[2]
+        cursor = args[3]
+        banco10 = args[4]
+        QtWidgets = args[5]
+        setar_checkBox_false = args[6]
 
         id = telaExcluirBebidas.id_excluir_bebidas.text()
 

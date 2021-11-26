@@ -1,7 +1,10 @@
-def informar(tela1, tela2, cursor, QtWidgets, modulo):
-    telaExibiPrecoAdicionais = tela1
-    telaAdicionais = tela2
-    setar_checkBox_false = modulo
+def informar(*args):
+
+    telaExibiPrecoAdicionais = args[0]
+    telaAdicionais = args[1]
+    cursor = args[2]
+    QtWidgets = args[3]
+    setar_checkBox_false = args[4]
 
     telaExibiPrecoAdicionais.show()
     listaAdc = []

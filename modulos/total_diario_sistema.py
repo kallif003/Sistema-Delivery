@@ -1,6 +1,9 @@
-def venda_do_dia(tela, cursor, data, QtWidgets):
+def venda_do_dia(*args):
 
-    telaCaixa = tela
+    telaCaixa = args[0]
+    cursor = args[1]
+    data = args[2]
+    QtWidgets = args[3]
 
     cursor.execute("select sum(qt_pizzas), sum(qt_esfihas), sum(qt_bebidas), sum(qt_outros), sum(total) from caixa where dataa = %s " % data)
     dados = cursor.fetchall()

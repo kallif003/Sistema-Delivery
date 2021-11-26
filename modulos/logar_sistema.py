@@ -1,8 +1,9 @@
-def logar(tela1, tela2, tela3, cursor):
+def logar(*args):
 
-    telaLogin = tela1
-    telaCalendario2 = tela2
-    telaErro = tela3
+    telaLogin = args[0]
+    telaCalendario2 = args[1]
+    telaErro = args[2]
+    cursor = args[3]
 
     login = telaLogin.login.text()
     senha = telaLogin.senha.text()

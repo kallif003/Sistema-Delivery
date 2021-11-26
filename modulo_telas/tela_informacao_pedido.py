@@ -1,4 +1,5 @@
 def abre_informacao_pedido(tela):
+
     telaInfoPedido = tela
 
     telaInfoPedido.show()
@@ -6,6 +7,6 @@ def abre_informacao_pedido(tela):
              telaInfoPedido.endereco, telaInfoPedido.numero, telaInfoPedido.bairro, telaInfoPedido.ref,
              telaInfoPedido.complemento, telaInfoPedido.taxa, telaInfoPedido.motoboy, telaInfoPedido.tableWidget_2,
              telaInfoPedido.cartao, telaInfoPedido.voucher, telaInfoPedido.desconto,telaInfoPedido.dinheiro,telaInfoPedido.troco,
-             telaInfoPedido.valorTotal, telaInfoPedido.label, telaInfoPedido.label_2]
+             telaInfoPedido.valorTotal, telaInfoPedido.label]
     for i in lista:
         i.clear()

@@ -1,8 +1,11 @@
-def finalizar(tela1, tela2, tela3, cursor, banco10, QtWidgets):
+def finalizar(*args):
     try:
-        telaFinalizarDeve = tela1
-        telaDevedores2 = tela2
-        telaErro = tela3
+        telaFinalizarDeve = args[0]
+        telaDevedores2 = args[1]
+        telaErro = args[2]
+        cursor = args[3]
+        banco10 = args[4]
+        QtWidgets = args[5]
 
         id = telaFinalizarDeve.codigo.text()
         sql = ("select id from gerenciarPedido where id = %s" % id)

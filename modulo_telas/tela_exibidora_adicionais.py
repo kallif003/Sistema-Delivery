@@ -1,6 +1,8 @@
-def mostra_adicionais(tela, cursor, QtWidgets):
+def mostra_adicionais(*args):
 
-    telaProduto = tela
+    telaProduto = args[0]
+    cursor = args[1]
+    QtWidgets = args[2]
 
     telaProduto.frame_adc.show()
     listaAdc = []

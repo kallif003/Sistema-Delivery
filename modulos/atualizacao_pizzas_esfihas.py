@@ -1,9 +1,12 @@
-def atualiza_pizzas_esfihas(tela1, tela2, cursor, banco10, QtWidgets, modulo):
+def atualiza_pizzas_esfihas(*args):
 
     try:
-        telaAtualizarProdutos= tela1
-        telaErro = tela2
-        setar_checkBox_false = modulo
+        telaAtualizarProdutos = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
+        QtWidgets = args[4]
+        setar_checkBox_false = args[5]
 
         id = telaAtualizarProdutos.cod_atualizar.text()
         sabor = telaAtualizarProdutos.produto_atualizar.text()
@@ -79,9 +82,6 @@ def atualiza_pizzas_esfihas(tela1, tela2, cursor, banco10, QtWidgets, modulo):
         telaAtualizarProdutos.valor_atualizar.clear()
         setar_checkBox_false.checkBox_atualizacao_pizzas_esfihas(telaAtualizarProdutos)
 
-    except Exception as erro:
-        print(erro.__class__)
-        print('cu')
     except:
         telaErro.show()
         telaErro.label.setText('  Erro, tente novamente!')

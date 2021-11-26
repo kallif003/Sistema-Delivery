@@ -1,8 +1,14 @@
-def despachar(tela1, tela2, tela3, cursor, banco10, time, data, date, QtWidgets):
+def despachar(*args):
     try:
-        telaDespachar = tela1
-        telaErro = tela2
-        telaPedido = tela3
+        telaDespachar = args[0]
+        telaErro = args[1]
+        telaPedido = args[2]
+        cursor = args[3]
+        banco10 = args[4]
+        time = args[5]
+        data = args[6]
+        date = args[7]
+        QtWidgets = args[8]
 
         id = telaDespachar.codigo.text()
         sql = ("select id from gerenciarPedido where id = %s and dataa = %s")

@@ -1,9 +1,9 @@
-def isChecked(tela, select):
+def isChecked(*args):
 
     listaAdc = []
     listaValor = []
-    telaAdicionais = tela
-    dados5 = select
+    telaAdicionais = args[0]
+    dados5 = args[1]
 
     if telaAdicionais.checkBox1.isChecked():
         for i in range(len(dados5)):

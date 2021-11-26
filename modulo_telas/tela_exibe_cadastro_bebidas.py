@@ -1,7 +1,9 @@
-def exibe_bebeidas(tela, cursor, QtWidgets):
+def exibe_bebeidas(*args):
     try:
 
-        telaBebida = tela
+        telaBebida = args[0]
+        cursor = args[1]
+        QtWidgets = args[2]
 
         telaBebida.show()
         telaBebida.frame_outros.hide()

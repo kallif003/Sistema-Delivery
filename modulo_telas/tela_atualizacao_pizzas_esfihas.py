@@ -1,7 +1,10 @@
-def pizzas_esfihas(tela1, tela2, cursor, QtWidgets, modulo):
-    telaProduto = tela1
-    telaAtualizarProdutos= tela2
-    sql_pizza_adicionais = modulo
+def pizzas_esfihas(*args):
+
+    telaProduto = args[0]
+    telaAtualizarProdutos= args[1]
+    cursor = args[2]
+    QtWidgets = args[3]
+    sql_pizza_adicionais = args[4]
 
     telaProduto.hide()
     telaAtualizarProdutos.frame_adc_atualizar.hide()

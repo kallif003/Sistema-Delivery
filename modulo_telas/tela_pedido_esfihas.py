@@ -1,7 +1,8 @@
-def esfihas(tela, cursor, modulo):
+def esfihas(*args):
     try:
-        telaPrincipal = tela
-        preenche_checkbox = modulo
+        telaPrincipal = args[0]
+        cursor = args[1]
+        preenche_checkbox = args[2]
 
         telaPrincipal.frame_bebidas.hide()
         telaPrincipal.frame_esfiha.show()

@@ -1,6 +1,8 @@
 def limpar(tela1, tela2):
+
     telaPrincipal = tela1
     telaConfirmacao = tela2
+
     lista = [telaPrincipal.numero, telaPrincipal.nome,
              telaPrincipal.cep, telaPrincipal.end,
              telaPrincipal.numero, telaPrincipal.bairro,

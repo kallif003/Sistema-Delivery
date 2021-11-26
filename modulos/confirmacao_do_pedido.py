@@ -1,10 +1,12 @@
-def confirmando_pedido(tela1, tela2,tela3, cursor, pymysql, valor):
+def confirmando_pedido(*args):
     try:
 
-        telaPrincipal = tela1
-        telaErro = tela2
-        telaConfirmarPedido = tela3
-        valorTotal = valor
+        telaPrincipal = args[0]
+        telaErro = args[1]
+        telaConfirmarPedido = args[2]
+        cursor = args[3]
+        pymysql = args[4]
+        valorTotal = args[5]
 
         tel = telaPrincipal.telefone.text() or 1
         cursor.execute("select telefone from cadastro_cliente where telefone = %s" % tel)
@@ -20,8 +22,9 @@ def confirmando_pedido(tela1, tela2,tela3, cursor, pymysql, valor):
                      telaConfirmarPedido.resto, telaConfirmarPedido.lineEdit, telaConfirmarPedido.pix]
             for i in lista:
                 i.clear()
-            # telaConfirmarPedido.vemBuscar.setChecked(False)
+            telaConfirmarPedido.vemBuscar.setChecked(False)
             telaConfirmarPedido.valorTotal.setText(f'{valorTotal:.2f}')
+
     except pymysql.err.ProgrammingError:
         telaErro.show()
         telaErro.label.setText('Telefone invalido, tente novamente')

@@ -1,13 +1,16 @@
-def mostrar(tela1, tela2, cursor, QtWidgets):
+def mostrar(*args):
     try:
         listaIngredientes = []
         id = 0
         lista = []
         listaId = []
-        telaPrincipal = tela1
-        tela_exibi_valores_pizzas = tela2
         listaEsfihas = []
         listaPizza = []
+
+        telaPrincipal = args[0]
+        tela_exibi_valores_pizzas = args[1]
+        cursor = args[2]
+        QtWidgets = args[3]
 
         cursor.execute("select ingredientes from broto")
         dados = cursor.fetchall()
@@ -20,7 +23,6 @@ def mostrar(tela1, tela2, cursor, QtWidgets):
         for i in dados2:
             for j in i:
                 listaId.append(j)
-
 
         if telaPrincipal.checkBox1.isChecked():
             tela_exibi_valores_pizzas.label.setText(str(listaIngredientes[0]))

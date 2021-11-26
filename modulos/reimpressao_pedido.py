@@ -1,6 +1,10 @@
-def reimprimir(tela1, data, cursor, os):
+def reimprimir(*args):
     try:
-        telaImprimir = tela1
+
+        telaImprimir = args[0]
+        data = args[1]
+        cursor = args[2]
+        os = args[3]
 
         telaImprimir.hide()
 
@@ -289,5 +293,6 @@ def reimprimir(tela1, data, cursor, os):
 
         os.startfile("C:\\Users\\GRATONI\\Desktop\\dist\\sistemaDelivery\\pedido.txt", "print")
         telaImprimir.codigo.clear()
+
     except Exception as erro:
         print(erro.__class__)

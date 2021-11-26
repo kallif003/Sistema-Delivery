@@ -1,7 +1,7 @@
-def isChecked(tela, select):
+def isChecked(*args):
 
-    telaPrincipal = tela
-    dados = select
+    telaPrincipal = args[0]
+    dados = args[1]
     listaTemp = []
     valorProduto = []
 

@@ -1,6 +1,9 @@
-def devendo(tela, cursor, QtWidgets):
+def devendo(*args):
 
-    telaDevedores2 = tela
+    telaDevedores2 = args[0]
+    cursor = args[1]
+    QtWidgets = args[2]
+
     telaDevedores2.show()
 
     cursor.execute("select id, dataa, hora, nome, telefone, valor from devedores")

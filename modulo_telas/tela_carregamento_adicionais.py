@@ -1,9 +1,13 @@
-def carregar(tela, cursor, modulo):
+def carregar(*args):
 
-    telaAdicionais = tela
-    setar_checkBox_false = modulo
+    telaAdicionais = args[0]
+    cursor = args[1]
+    setar_checkBox_false = args[2]
+
 
     telaAdicionais.show()
+    setar_checkBox_false.checkBox_tela_adicionais_hide(telaAdicionais)
+
     lista = []
     listaSem = []
     sql = ("select adicional from adcBroto")
@@ -14,82 +18,121 @@ def carregar(tela, cursor, modulo):
             lista.append(j)
 
     if len(lista) > 0:
+        telaAdicionais.checkBox1.show()
         telaAdicionais.checkBox1.setText(str(lista[0]))
     if len(lista) > 1:
+        telaAdicionais.checkBox2.show()
         telaAdicionais.checkBox2.setText(str(lista[1]))
     if len(lista) > 2:
+        telaAdicionais.checkBox3.show()
         telaAdicionais.checkBox3.setText(str(lista[2]))
     if len(lista) > 3:
+        telaAdicionais.checkBox4.show()
         telaAdicionais.checkBox4.setText(str(lista[3]))
     if len(lista) > 4:
+        telaAdicionais.checkBox5.show()
         telaAdicionais.checkBox5.setText(str(lista[4]))
     if len(lista) > 5:
+        telaAdicionais.checkBox6.show()
         telaAdicionais.checkBox6.setText(str(lista[5]))
     if len(lista) > 6:
+        telaAdicionais.checkBox7.show()
         telaAdicionais.checkBox7.setText(str(lista[6]))
     if len(lista) > 7:
+        telaAdicionais.checkBox8.show()
         telaAdicionais.checkBox8.setText(str(lista[7]))
     if len(lista) > 8:
+        telaAdicionais.checkBox9.show()
         telaAdicionais.checkBox9.setText(str(lista[8]))
     if len(lista) > 9:
+        telaAdicionais.checkBox10.show()
         telaAdicionais.checkBox10.setText(str(lista[9]))
     if len(lista) > 10:
+        telaAdicionais.checkBox11.show()
         telaAdicionais.checkBox11.setText(str(lista[10]))
     if len(lista) > 11:
+        telaAdicionais.checkBox12.show()
         telaAdicionais.checkBox12.setText(str(lista[11]))
     if len(lista) > 12:
+        telaAdicionais.checkBox13.show()
         telaAdicionais.checkBox13.setText(str(lista[12]))
     if len(lista) > 13:
+        telaAdicionais.checkBox14.show()
         telaAdicionais.checkBox14.setText(str(lista[13]))
     if len(lista) > 14:
+        telaAdicionais.checkBox15.show()
         telaAdicionais.checkBox15.setText(str(lista[14]))
     if len(lista) > 15:
+        telaAdicionais.checkBox16.show()
         telaAdicionais.checkBox16.setText(str(lista[15]))
     if len(lista) > 16:
+        telaAdicionais.checkBox17.show()
         telaAdicionais.checkBox17.setText(str(lista[16]))
     if len(lista) > 17:
+        telaAdicionais.checkBox18.show()
         telaAdicionais.checkBox18.setText(str(lista[17]))
     if len(lista) > 18:
+        telaAdicionais.checkBox19.show()
         telaAdicionais.checkBox19.setText(str(lista[18]))
     if len(lista) > 19:
+        telaAdicionais.checkBox20.show()
         telaAdicionais.checkBox20.setText(str(lista[19]))
     if len(lista) > 20:
+        telaAdicionais.checkBox21.show()
         telaAdicionais.checkBox21.setText(str(lista[20]))
     if len(lista) > 21:
+        telaAdicionais.checkBox22.show()
         telaAdicionais.checkBox22.setText(str(lista[21]))
     if len(lista) > 22:
+        telaAdicionais.checkBox23.show()
         telaAdicionais.checkBox23.setText(str(lista[22]))
     if len(lista) > 23:
+        telaAdicionais.checkBox24.show()
         telaAdicionais.checkBox24.setText(str(lista[23]))
     if len(lista) > 24:
+        telaAdicionais.checkBox25.show()
         telaAdicionais.checkBox25.setText(str(lista[24]))
     if len(lista) > 25:
+        telaAdicionais.checkBox26.show()
         telaAdicionais.checkBox26.setText(str(lista[25]))
     if len(lista) > 26:
+        telaAdicionais.checkBox27.show()
         telaAdicionais.checkBox27.setText(str(lista[26]))
     if len(lista) > 27:
+        telaAdicionais.checkBox28.show()
         telaAdicionais.checkBox28.setText(str(lista[27]))
     if len(lista) > 28:
+        telaAdicionais.checkBox29.show()
         telaAdicionais.checkBox29.setText(str(lista[28]))
     if len(lista) > 29:
+        telaAdicionais.checkBox30.show()
         telaAdicionais.checkBox30.setText(str(lista[29]))
     if len(lista) > 30:
+        telaAdicionais.checkBox31.show()
         telaAdicionais.checkBox31.setText(str(lista[30]))
     if len(lista) > 31:
+        telaAdicionais.checkBox32.show()
         telaAdicionais.checkBox32.setText(str(lista[31]))
     if len(lista) > 32:
+        telaAdicionais.checkBox33.show()
         telaAdicionais.checkBox33.setText(str(lista[32]))
     if len(lista) > 33:
+        telaAdicionais.checkBox34.show()
         telaAdicionais.checkBox34.setText(str(lista[33]))
     if len(lista) > 34:
+        telaAdicionais.checkBox35.show()
         telaAdicionais.checkBox35.setText(str(lista[34]))
     if len(lista) > 35:
+        telaAdicionais.checkBox36.show()
         telaAdicionais.checkBox36.setText(str(lista[35]))
     if len(lista) > 36:
+        telaAdicionais.checkBox37.show()
         telaAdicionais.checkBox37.setText(str(lista[36]))
     if len(lista) > 37:
+        telaAdicionais.checkBox38.show()
         telaAdicionais.checkBox38.setText(str(lista[37]))
     if len(lista) > 38:
+        telaAdicionais.checkBox39.show()
         telaAdicionais.checkBox39.setText(str(lista[38]))
 
     sql = ("select adicional from adcSem")
@@ -100,82 +143,121 @@ def carregar(tela, cursor, modulo):
             listaSem.append(j)
 
     if len(listaSem) > 0:
+        telaAdicionais.c1.show()
         telaAdicionais.c1.setText(str(listaSem[0]))
     if len(listaSem) > 1:
+        telaAdicionais.c2.show()
         telaAdicionais.c2.setText(str(listaSem[1]))
     if len(listaSem) > 2:
+        telaAdicionais.c3.show()
         telaAdicionais.c3.setText(str(listaSem[2]))
     if len(listaSem) > 3:
+        telaAdicionais.c4.show()
         telaAdicionais.c4.setText(str(listaSem[3]))
     if len(listaSem) > 4:
+        telaAdicionais.c5.show()
         telaAdicionais.c5.setText(str(listaSem[4]))
     if len(listaSem) > 5:
+        telaAdicionais.c6.show()
         telaAdicionais.c6.setText(str(listaSem[5]))
     if len(listaSem) > 6:
+        telaAdicionais.c7.show()
         telaAdicionais.c7.setText(str(listaSem[6]))
     if len(listaSem) > 7:
+        telaAdicionais.c8.show()
         telaAdicionais.c8.setText(str(listaSem[7]))
     if len(listaSem) > 8:
+        telaAdicionais.c9.show()
         telaAdicionais.c9.setText(str(listaSem[8]))
     if len(listaSem) > 9:
+        telaAdicionais.c10.show()
         telaAdicionais.c10.setText(str(listaSem[9]))
     if len(listaSem) > 10:
+        telaAdicionais.c11.show()
         telaAdicionais.c11.setText(str(listaSem[10]))
     if len(listaSem) > 11:
+        telaAdicionais.c12.show()
         telaAdicionais.c12.setText(str(listaSem[11]))
     if len(listaSem) > 12:
+        telaAdicionais.c13.show()
         telaAdicionais.c13.setText(str(listaSem[12]))
     if len(listaSem) > 13:
+        telaAdicionais.c14.show()
         telaAdicionais.c14.setText(str(listaSem[13]))
     if len(listaSem) > 14:
+        telaAdicionais.c15.show()
         telaAdicionais.c15.setText(str(listaSem[14]))
     if len(listaSem) > 15:
+        telaAdicionais.c16.show()
         telaAdicionais.c16.setText(str(listaSem[15]))
     if len(listaSem) > 16:
+        telaAdicionais.c17.show()
         telaAdicionais.c17.setText(str(listaSem[16]))
     if len(listaSem) > 17:
+        telaAdicionais.c18.show()
         telaAdicionais.c18.setText(str(listaSem[17]))
     if len(listaSem) > 18:
+        telaAdicionais.c19.show()
         telaAdicionais.c19.setText(str(listaSem[18]))
     if len(listaSem) > 19:
+        telaAdicionais.c20.show()
         telaAdicionais.c20.setText(str(listaSem[19]))
     if len(listaSem) > 20:
+        telaAdicionais.c21.show()
         telaAdicionais.c21.setText(str(listaSem[20]))
     if len(listaSem) > 21:
+        telaAdicionais.c22.show()
         telaAdicionais.c22.setText(str(listaSem[21]))
     if len(listaSem) > 22:
+        telaAdicionais.c23.show()
         telaAdicionais.c23.setText(str(listaSem[22]))
     if len(listaSem) > 23:
+        telaAdicionais.c24.show()
         telaAdicionais.c24.setText(str(listaSem[23]))
     if len(listaSem) > 24:
+        telaAdicionais.c25.show()
         telaAdicionais.c25.setText(str(listaSem[24]))
     if len(listaSem) > 25:
+        telaAdicionais.c26.show()
         telaAdicionais.c26.setText(str(listaSem[25]))
     if len(listaSem) > 26:
+        telaAdicionais.c27.show()
         telaAdicionais.c27.setText(str(listaSem[26]))
     if len(listaSem) > 27:
+        telaAdicionais.c28.show()
         telaAdicionais.c28.setText(str(listaSem[27]))
     if len(listaSem) > 28:
+        telaAdicionais.c29.show()
         telaAdicionais.c29.setText(str(listaSem[28]))
     if len(listaSem) > 29:
+        telaAdicionais.c30.show()
         telaAdicionais.c30.setText(str(listaSem[29]))
     if len(listaSem) > 30:
+        telaAdicionais.c31.show()
         telaAdicionais.c31.setText(str(listaSem[30]))
     if len(listaSem) > 31:
+        telaAdicionais.c32.show()
         telaAdicionais.c32.setText(str(listaSem[31]))
     if len(listaSem) > 32:
+        telaAdicionais.c33.show()
         telaAdicionais.c33.setText(str(listaSem[32]))
     if len(listaSem) > 33:
+        telaAdicionais.c34.show()
         telaAdicionais.c34.setText(str(listaSem[33]))
     if len(listaSem) > 34:
+        telaAdicionais.c35.show()
         telaAdicionais.c35.setText(str(listaSem[34]))
     if len(listaSem) > 35:
+        telaAdicionais.c36.show()
         telaAdicionais.c36.setText(str(listaSem[35]))
     if len(listaSem) > 36:
+        telaAdicionais.c37.show()
         telaAdicionais.c37.setText(str(listaSem[36]))
     if len(listaSem) > 37:
+        telaAdicionais.c38.show()
         telaAdicionais.c38.setText(str(listaSem[37]))
     if len(listaSem) > 38:
+        telaAdicionais.c39.show()
         telaAdicionais.c39.setText(str(listaSem[38]))
 
     setar_checkBox_false.checkBox_tela_adicionais_com(telaAdicionais)

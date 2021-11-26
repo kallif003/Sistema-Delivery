@@ -1,7 +1,9 @@
-def venda_mensal(tela1, tela2, cursor, QtWidgets):
+def venda_mensal(*args):
 
-    telaCaixa = tela1
-    telaMensal = tela2
+    telaCaixa = args[0]
+    telaMensal = args[1]
+    cursor = args[2]
+    QtWidgets = args[3]
 
     data1 = telaMensal.data_mensal.text()
     cursor.execute("select sum(qt_pizzas), sum(qt_esfihas), sum(qt_bebidas), sum(qt_outros), sum(total) from caixa where extract(year_month from data2) = %s " % data1)

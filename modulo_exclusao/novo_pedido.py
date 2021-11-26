@@ -1,8 +1,10 @@
-def pedido_novo(tela, modulo1, modulo2, cursor, banco10):
-    telaPrincipal = tela
-    sql_limpa_tableWidget = modulo1
-    setar_checkBox_false = modulo2
+def pedido_novo(*args):
 
+    telaPrincipal = args[0]
+    sql_limpa_tableWidget = args[1]
+    setar_checkBox_false = args[2]
+    cursor = args[3]
+    banco10 = args[4]
 
     lista1 = [telaPrincipal.telefone, telaPrincipal.nome,
               telaPrincipal.cep,

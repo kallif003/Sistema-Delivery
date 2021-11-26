@@ -1,9 +1,12 @@
-def atualiza_adicionais(tela1, tela2, cursor, banco10, QtWidgets, modulo):
+def atualiza_adicionais(*args):
     try:
 
-        telaAtualizarProdutos = tela1
-        telaErro = tela2
-        setar_checkBox_false = modulo
+        telaAtualizarProdutos = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
+        QtWidgets = args[4]
+        setar_checkBox_false = args[5]
 
         id = telaAtualizarProdutos.cod_atualizar_2.text()
         adicional = telaAtualizarProdutos.produto_adc_atualizar.text()

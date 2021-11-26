@@ -1,6 +1,9 @@
-def limpar(tela, cursor, banco10, modulo):
-    telaPrincipal = tela
-    sql_limpa_tableWidget = modulo
+def limpar(*args):
+
+    telaPrincipal = args[0]
+    cursor = args[1]
+    banco10 = args[2]
+    sql_limpa_tableWidget = args[3]
 
     telaPrincipal.valorTotal.setText("Valor Total:")
     telaPrincipal.tableWidget_cadastro.clear()

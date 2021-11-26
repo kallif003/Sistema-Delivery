@@ -1,6 +1,7 @@
-def isChecked(tela, seletc):
-    telaPrincipal = tela
-    dados = seletc
+def isChecked(*args):
+
+    telaPrincipal = args[0]
+    dados = args[1]
     listaTemp = []
     valorProduto = []
 

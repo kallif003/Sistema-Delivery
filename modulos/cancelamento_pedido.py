@@ -1,8 +1,13 @@
-def cancelar(tela1, tela2, tela3, cursor, banco10, data, date,  QtWidgets):
+def cancelar(*args):
     try:
-        telaCancelar = tela1
-        telaErro = tela2
-        telaPedido = tela3
+        telaCancelar = args[0]
+        telaErro = args[1]
+        telaPedido = args[2]
+        cursor = args[3]
+        banco10 = args[4]
+        data = args[5]
+        date = args[6]
+        QtWidgets = args[7]
 
         id = telaCancelar.codigo.text()
         sql = ("select id from gerenciarPedido where id = %s and dataa = %s")

@@ -1,7 +1,10 @@
-def devedor(tela1, tela2, cursor, banco10, data):
+def devedor(*args):
     try:
-        telaDevedores = tela1
-        telaErro = tela2
+        telaDevedores = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
+        data = args[4]
 
         id = telaDevedores.codigo.text()
         sql = ("select id from gerenciarPedido where id = %s and dataa = %s")

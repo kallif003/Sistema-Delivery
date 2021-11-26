@@ -1,11 +1,13 @@
-def ultimo_pedido(tela1, tela2, tela3, cursor, pymysql, QtWidgets):
+def ultimo_pedido(*args):
     try:
-        telaUltimoPedido = tela1
-        telaPrincipal = tela2
-        telaErro = tela3
+        telaUltimoPedido = args[0]
+        telaPrincipal = args[1]
+        telaErro = args[2]
+        cursor = args[3]
+        pymysql = args[4]
+        QtWidgets = args[5]
 
         telaUltimoPedido.show()
-
         listaPedido = []
 
         tel = telaPrincipal.telefone.text()
@@ -34,8 +36,8 @@ def ultimo_pedido(tela1, tela2, tela3, cursor, pymysql, QtWidgets):
         else:
             id_inteiro = 0
 
-        cursor.execute(
-            "select id_int, tamanho, parte, sabor, valorProduto, quantidade, subtotal from per_inteiro where id = %s" % id_inteiro)
+        cursor.execute("select id_int, tamanho, parte, sabor, valorProduto, "
+                       "quantidade, subtotal from per_inteiro where id = %s" % id_inteiro)
         inteiro = cursor.fetchall()
 
         cursor.execute("select max(id) from per_met1 where id_met = %s" % id_pedido)
@@ -317,7 +319,7 @@ def ultimo_pedido(tela1, tela2, tela3, cursor, pymysql, QtWidgets):
         if len(outros) > 0:
             for b in outros:
                 listaPedido.append(b)
-
+        print(listaPedido)
         telaUltimoPedido.valorTotal.setText(f'Valor Total: {valor:.2f}')
         telaUltimoPedido.tableWidget.setRowCount(len(listaPedido))
         telaUltimoPedido.tableWidget.setColumnCount(7)

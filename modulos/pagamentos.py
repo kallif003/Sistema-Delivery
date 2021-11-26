@@ -1,8 +1,8 @@
-def formas_pagamento(tela1, tela2, valor):
+def formas_pagamento(*args):
     try:
-        valorTotal = valor
-        telaConfirmarPedido = tela1
-        telaErro = tela2
+        telaConfirmarPedido = args[0]
+        telaErro = args[1]
+        valorTotal = args[2]
 
         cartao = float(telaConfirmarPedido.cartao.text() or 0)
         voucher = float(telaConfirmarPedido.voucher.text() or 0)

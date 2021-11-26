@@ -1,8 +1,12 @@
-def excluir(tela1, tela2, cursor, banco10, QtWidgets, modulo):
+def excluir(*args):
     try:
-        telaAtualizarProdutos = tela1
-        telaErro = tela2
-        sql_pizza_adicionais = modulo
+        telaAtualizarProdutos = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
+        QtWidgets = args[4]
+        sql_pizza_adicionais = args[5]
+
         id = telaAtualizarProdutos.cod_atualizar_2.text()
 
         if telaAtualizarProdutos.buttonBroto_atualizar.isChecked():

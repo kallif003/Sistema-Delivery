@@ -1,4 +1,5 @@
 def limpar(cursor, banco10):
+
     cursor.execute("select id_cliente from temp_inteiro")
     inteiro = cursor.fetchall()
     for a in inteiro:

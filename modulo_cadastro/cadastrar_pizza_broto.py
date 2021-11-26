@@ -1,7 +1,10 @@
-def cadastrar(tela1, tela2, cursor, banco10, QtWidgets):
+def cadastrar(*args):
     try:
-        telaProduto = tela1
-        telaErro = tela2
+        telaProduto = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
+        QtWidgets = args[4]
 
         sabor = telaProduto.produto_cadastro.text()
         valor = telaProduto.valor_cadastro.text()

@@ -1,7 +1,11 @@
-def gerar(tela1, tela2, cursor, datetime, os, data):
+def gerar(*args):
     try:
-        telaSecundaria = tela1
-        telaErro = tela2
+        telaSecundaria = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        datetime = args[3]
+        os = args[4]
+        data = args[5]
 
         semana = datetime.today().weekday()
         lista_dias_semana = ['Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sabado', 'Domingo']

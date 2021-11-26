@@ -1,8 +1,11 @@
-def inf_pedido(tela1, tela2, cursor, data, modulo, QtWidgets):
+def inf_pedido(*args):
     try:
-        telaInfoPedido = tela1
-        telaErro = tela2
-        sql_informacoes_pedidos = modulo
+        telaInfoPedido = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        data = args[3]
+        sql_informacoes_pedidos = args[4]
+        QtWidgets = args[5]
 
         id = telaInfoPedido.codigo.text()
         sql = ("select id from gerenciarPedido where id = %s and dataa = %s")

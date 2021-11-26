@@ -1,9 +1,10 @@
-def isChecked(tela, select):
+def isChecked(*args):
 
-    telaPrincipal = tela
+    telaPrincipal = args[0]
+    dados = args[1]
     valorProduto = []
     listaTemp = []
-    dados = select
+
 
     if telaPrincipal.esfihas_1.isChecked():
         for i in range(len(dados)):

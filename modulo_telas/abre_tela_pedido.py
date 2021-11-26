@@ -1,7 +1,10 @@
-def tela_pedido(tela, cursor, banco10, modulo1, modulo2):
-    telaPrincipal = tela
-    setar_checkBox_false = modulo1
-    sql_tela_pedido = modulo2
+def tela_pedido(*args):
+
+    telaPrincipal = args[0]
+    cursor = args[1]
+    banco10 = args[2]
+    setar_checkBox_false = args[3]
+    sql_tela_pedido = args[4]
 
     lista1 = [telaPrincipal.telefone, telaPrincipal.nome,
               telaPrincipal.cep,

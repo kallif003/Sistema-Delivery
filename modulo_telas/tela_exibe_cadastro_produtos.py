@@ -1,5 +1,8 @@
-def cadastrar_produtos(tela, cursor, QtWidgets):
-    telaProduto = tela
+def cadastrar_produtos(*args):
+
+    telaProduto = args[0]
+    cursor = args[1]
+    QtWidgets = args[2]
 
     telaProduto.show()
     telaProduto.frame_adc.hide()

@@ -1,7 +1,9 @@
-def excluir(tela1, tela2, cursor, banco10):
+def excluir(*args):
     try:
-        telaSecundaria = tela1
-        telaErro = tela2
+        telaSecundaria = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
 
         linha = telaSecundaria.tableWidget.currentRow()
         telaSecundaria.tableWidget.removeRow(linha)

@@ -1,7 +1,9 @@
-def atualizar_bebidas(tela1, tela2, cursor, QtWidgets):
+def atualizar_bebidas(*args):
 
-    telaBebida = tela1
-    telaAtualizarBebidas = tela2
+    telaBebida = args[0]
+    telaAtualizarBebidas = args[1]
+    cursor = args[2]
+    QtWidgets = args[3]
 
     telaBebida.hide()
     telaAtualizarBebidas.show()

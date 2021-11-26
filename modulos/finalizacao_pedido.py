@@ -1,9 +1,15 @@
-def finalizar(tela1, tela2, tela3, date, time, data, cursor, banco10, QtWidgets):
+def finalizar(*args):
     try:
 
-        telaFinalizar = tela1
-        telaErro = tela2
-        telaPedido = tela3
+        telaFinalizar = args[0]
+        telaErro = args[1]
+        telaPedido = args[2]
+        date = args[3]
+        time = args[4]
+        data = args[5]
+        cursor = args[6]
+        banco10 = args[7]
+        QtWidgets = args[8]
 
         data2 = date.today()
         a = time.ctime()

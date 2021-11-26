@@ -1,7 +1,8 @@
-def cep(tela1, tela2, pycep_correios):
+def cep(*args):
     try:
-        telaPrincipal = tela1
-        telaErro = tela2
+        telaPrincipal = args[0]
+        telaErro = args[1]
+        pycep_correios = args[2]
 
         cep = telaPrincipal.cep.text()
         end = pycep_correios.get_address_from_cep(cep)

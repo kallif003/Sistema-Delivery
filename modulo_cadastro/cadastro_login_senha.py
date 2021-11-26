@@ -1,6 +1,9 @@
-def cadastrar(tela1, tela2, cursor, banco10):
-    telaCadastroLogin = tela1
-    telaErro = tela2
+def cadastrar(*args):
+
+    telaCadastroLogin = args[0]
+    telaErro = args[1]
+    cursor = args[2]
+    banco10 = args[3]
 
     login = telaCadastroLogin.login_cadastro.text()
     senha = telaCadastroLogin.senha_cadastro.text()

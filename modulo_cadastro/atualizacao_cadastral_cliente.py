@@ -1,7 +1,10 @@
-def atualizar(tela1, tela2, cursor, banco10):
+def atualizar(*args):
     try:
-        telaPrincipal = tela1
-        telaErro = tela2
+        telaPrincipal = args[0]
+        telaErro = args[1]
+        cursor = args[2]
+        banco10 = args[3]
+        pymysql = args[4]
 
         tel = telaPrincipal.telefone.text()
         taxa = telaPrincipal.taxa_2.text() or 0
@@ -36,9 +39,14 @@ def atualizar(tela1, tela2, cursor, banco10):
 
         telaPrincipal.label_atualizado.show()
 
+    except (pymysql.err.DataError):
+        telaErro.show()
+        telaErro.label.setText('Erro!Excesso de caracteres, abrevie ')
+
     except(pymysql.err.DataError):
         telaErro.show()
         telaErro.label.setText('    Erro! Utilize numeros inteiros')
+
     except:
         telaErro.show()
         telaErro.label.setText('  Erro ao atualizar o cadastro!')

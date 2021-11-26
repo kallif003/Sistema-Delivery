@@ -1,7 +1,11 @@
-def cadastrar(tela1, tela2, cursor, banco10, date):
+def cadastrar(*args):
     try:
-        telaPrincipal = tela1
-        telaErro = tela2
+        telaPrincipal = args[0]
+        telaErro = args[1]
+        cursor  = args[2]
+        banco10 = args[3]
+        date = args[4]
+        pymysql = args[5]
 
         tel = telaPrincipal.telefone.text()
         taxa = int(telaPrincipal.taxa_2.text() or 0)
@@ -33,3 +37,6 @@ def cadastrar(tela1, tela2, cursor, banco10, date):
     except(ValueError):
         telaErro.show()
         telaErro.label.setText('    Erro! Utilize numeros inteiros')
+    except (pymysql.err.DataError):
+        telaErro.show()
+        telaErro.label.setText('Erro!Excesso de caracteres, abrevie ')

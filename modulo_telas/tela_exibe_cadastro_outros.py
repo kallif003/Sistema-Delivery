@@ -1,6 +1,9 @@
-def exibe_outros(tela, cursor, QtWidgets):
+def exibe_outros(*args):
 
-    telaBebida = tela
+    telaBebida = args[0]
+    cursor = args[1]
+    QtWidgets = args[2]
+
     telaBebida.frame_outros.show()
 
     sql2 = "select * from outros"

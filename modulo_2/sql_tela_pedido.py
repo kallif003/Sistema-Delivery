@@ -1,6 +1,8 @@
-def sql(tela, cursor, QtWidgets):
+def sql(*args):
 
-    telaPrincipal = tela
+    telaPrincipal = args[0]
+    cursor = args[1]
+    QtWidgets = args[2]
 
     listaPedido = []
     sql9 = ("select id, tamanho, parte, sabor, valorProduto, quantidade, subtotal from temp_inteiro")

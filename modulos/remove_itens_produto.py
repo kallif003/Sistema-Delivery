@@ -1,10 +1,15 @@
-def remover(tela1, tela2, tela3, cursor, banco10, pymysql, modulo1, modulo2, QtWidgets, data):
+def remover(*args):
     try:
-        telaPrincipal = tela1
-        telaAdicionais = tela2
-        telaErro = tela3
-        setar_checkBox_false = modulo1
-        sql_tela_pedido = modulo2
+        telaPrincipal = args[0]
+        telaAdicionais = args[1]
+        telaErro = args[2]
+        cursor = args[3]
+        banco10 = args[4]
+        pymysql = args[5]
+        setar_checkBox_false = args[6]
+        sql_tela_pedido = args[7]
+        QtWidgets = args[8]
+        data = args[9]
 
         listaAdc = []
         tel = telaPrincipal.telefone.text() or 1
@@ -226,6 +231,9 @@ def remover(tela1, tela2, tela3, cursor, banco10, pymysql, modulo1, modulo2, QtW
         sql_tela_pedido.sql(telaPrincipal, cursor, QtWidgets)
         setar_checkBox_false.checkBox_tela_adicionais_sem(telaAdicionais)
 
+    except IndexError:
+        telaErro.show()
+        telaErro.label.setText(" Erro! Salve o contato do cliente")
     except pymysql.err.DataError:
         telaErro.show()
         telaErro.label.setText("      Erro! Selecione uma pizza")

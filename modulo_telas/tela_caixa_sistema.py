@@ -1,6 +1,7 @@
-def caixa(tela, data):
+def caixa(*args):
 
-    telaCaixa = tela
+    telaCaixa = args[0]
+    data = args[1]
 
     ano = data[4:8]
     mes = data[2:4]

@@ -1,7 +1,8 @@
-def pega_id(tela1, tela2, cursor):
+def pega_id(*args):
     try:
-        telaAtualizarBebidas = tela1
-        telaErro = tela2
+        telaAtualizarBebidas = args[0]
+        telaErro = args[1]
+        cursor = args[2]
 
         id = telaAtualizarBebidas.id_atualizar_bebidas.text()
 

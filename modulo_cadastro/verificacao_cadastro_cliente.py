@@ -1,7 +1,9 @@
-def verificar(tela1, tela2, cursor, banco10):
+def verificar(*args):
     try:
-        telaPrincipal = tela1
-        telaConfirmacao = tela2
+        telaPrincipal = args[0]
+        telaConfirmacao = args[1]
+        cursor = args[2]
+        banco10 = args[3]
 
         lista2 = []
         lista = []
